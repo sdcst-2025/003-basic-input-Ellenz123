@@ -11,3 +11,7 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+r=input("What is the raduis:")
+r=float(r)
+volume=4/3*3.1415926*(r)**3
+print(f"The volume is {volume}")

@@ -16,3 +16,10 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+h=input("What is the height:")
+h=float(h)
+r=input("What is the radius:")
+r=float(r)
+A=3.14*r**2+r*3.14*((r**2+h**2)**(1/2))
+print(f"surface area is {A}")
